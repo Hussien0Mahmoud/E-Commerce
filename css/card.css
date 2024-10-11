@@ -1,0 +1,129 @@
+.cart {
+    display: flex;
+    gap: 60px;
+}
+
+.shopping-cart {
+    flex: 1;
+    margin: 60px 0;
+    font-family: "Chau Philomene One", sans-serif;
+
+}
+
+.shopping-cart h2 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.cart-product-box {
+    margin: 60px 0;
+    display: flex;
+    align-items: center;
+}
+
+.cart-img-product {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.product-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.product-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-name h4 {
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.product-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-price .price {
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.product-price .count {
+    font-weight: bold;
+    padding: 5px 12px;
+    border: 1px solid #99999963;
+    border-radius: 5px;
+    font-size: 14px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 0 8px;
+}
+
+.order-summary {
+    width: 508px;
+    height: 424px;
+    padding: 48px 36px 48px 36px;
+    gap: 10px;
+    border-radius: 10px 0px 0px 0px;
+    flex: 1;
+    margin-top: 60px;
+    border: 1px solid #99999963;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: fit-content;
+    font-family: "Chau Philomene One", sans-serif;
+
+}
+
+.order-summary h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.summary-table .subtotal,
+.Tax,
+.Shipping,
+.Total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.checkout-btn {
+    display: inline-block;
+    background-color: #7749F8;
+    width: 436px;
+    height: 56px;
+    padding: 16px 56px 16px 56px;
+    margin-top: 30px;
+    border-radius: 6px 0px 0px 0px;
+    -webkit-border-radius: 6px 0px 0px 0px;
+    -moz-border-radius: 6px 0px 0px 0px;
+    -ms-border-radius: 6px 0px 0px 0px;
+    -o-border-radius: 6px 0px 0px 0px;
+    color: #fff;
+    font-family: "Chau Philomene One", sans-serif;
+
+}
